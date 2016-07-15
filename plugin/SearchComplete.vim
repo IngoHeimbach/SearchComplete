@@ -49,6 +49,8 @@ function! SearchCompleteStart()
 	cnoremap <Tab> <C-C>:call SearchComplete()<CR>/<C-R>s
 	cnoremap <silent> <CR> <CR>:call SearchCompleteStop()<CR>
 	cnoremap <silent> <Esc> <C-C>:call SearchCompleteStop()<CR>
+	cnoremap <silent> <Esc>[A <Esc>[A
+	cnoremap <silent> <Esc>[B <Esc>[B
 endfunction
 
 "--------------------------------------------------
